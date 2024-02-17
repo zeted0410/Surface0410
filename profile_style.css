@@ -1,0 +1,49 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+body {
+    background-color: rgb(255, 243, 224);
+}
+.background_profile {
+    top: -5px;
+    left: -5px;
+    filter: brightness(50%);
+    height:1500px;
+    width:100.5vw;
+    object-fit: cover;
+    position:absolute;
+    z-index: -20;
+}
+.background_profile_text {
+    top: -110px;
+    left: 550px;
+    color:rgb(255, 255, 255);
+    font-family: "Sf Pro Display";
+    font-weight: 900;
+    font-size: 280px;
+    position: absolute;
+}
+.background_profile_time {
+    top: 195px;
+    left: 2000px;
+    color:rgb(0, 238, 71);
+    font-family: "Sf Pro Display";
+    font-weight: 900;
+    font-size: 90px;
+    position: absolute;
+}
+.background_profile_image {
+    top:50px;
+    left: 50px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+}
+.profile_form {
+    width:100vw;
+    height:500px;
+    top: 990px;
+    background: rgba(76, 76, 76, 0.084);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.148);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(8.6px);
+    position:absolute;
+}
